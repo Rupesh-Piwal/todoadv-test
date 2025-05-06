@@ -1,9 +1,11 @@
-
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className="bg-black h-screen w-full">
+      <Header />
+    </div>
+  );
+};
 
-export default App
+export default App;
